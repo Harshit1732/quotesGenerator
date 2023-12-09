@@ -1,0 +1,10 @@
+.bookmark{
+    color:white
+}
+
+.bookmark>div{
+    border:1px solid  0 0 5px #fff, 0 0 10px #e0e9eb, 0 0 15px #e8eeef, 0 0 20px #bcb9bb, 0 0 30px #ede2e8, 0 0 40px #dae3e6, 0 0 55px #dfebef, 0 0 75px #a3b3b8;
+    width: 80%;
+    margin: auto;
+    
+}

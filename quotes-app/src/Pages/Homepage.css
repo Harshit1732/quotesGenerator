@@ -1,0 +1,79 @@
+.container {
+    width: 75%;
+    height: 600px;
+   
+    margin: auto;
+    margin-top: 3%;
+  
+  }
+  
+  .wraper_Icon1 {
+    position: absolute;
+    top: 165px; 
+    left: 300px;
+    color: white;
+    font-size: 100px;
+    font-weight: bolder;
+  }
+  
+  .content {
+   
+    position:relative;
+   height:auto;
+    padding: 10px; 
+    margin-top: 3%;
+    width:80%;
+    background-color: transparent;
+    backdrop-filter: blur(80px);
+    height:400px;
+    margin :auto;
+  
+  }
+  
+  .wraper_Icon2 {
+    position: absolute;
+    bottom:85px; 
+    right: 280px; 
+    color: white;
+    font-size: 100px;
+    font-weight: bolder;
+  }
+ 
+
+ 
+  /* CSS */
+  .button-89 {
+    --b: 3px;   /* border thickness */
+    --s: .45em; /* size of the corner */
+    --color: #c8cedd;
+    
+    padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+    color: var(--color);
+    --_p: var(--s);
+    background:
+      conic-gradient(from 90deg at var(--b) var(--b),#e2d3d300 90deg,var(--color) 0)
+      var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+    transition: .3s linear, color 0s, background-color 0s;
+    outline: var(--b) solid #efe3e300;
+    outline-offset: .6em;
+    font-size: 16px;
+    margin-top: 2%;
+    border: 0;
+    width:250px;
+    height:60px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-89:hover,
+  .button-89:focus-visible{
+    --_p: 0px;
+    outline-color: var(--color);
+    outline-offset: .05em;
+  }
+  
+  .button-89:active {
+    background: var(--color);
+    color: #fff;
+  }

@@ -1,0 +1,36 @@
+.Nav{
+    /* border:1px solid white; */
+    width:100%;
+    height:60px;
+    margin:0px;
+    background-color: transparent;
+    backdrop-filter: blur(80px);
+    margin-top: 20px;
+    background-size: cover; /* Ensure the background image covers the entire element */
+  background-position: center;
+
+}
+
+.Nav_content{
+    color:rgb(243, 235, 235);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    padding: 0px  20px;
+
+
+}
+.Nav_content>p{
+    align-items: center;
+    line-height: 30px;
+
+    /* border:1px solid red; */
+}
+.Nav_content>p:hover{
+    cursor: pointer;
+}
+
+@media screen and (min-width: 200px) and (max-width: 375px) {
+   
+  }
